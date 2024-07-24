@@ -136,6 +136,10 @@ In the keyboard shortcut editor, search for the command label where shortcuts sh
     "accelerator": "Ctrl+W"
   },
   {
+    "command": "tabsClear",
+    "accelerator": "Ctrl+Shift+W"
+  },
+  {
     "command": "tabsSwitchLastActive",
     "accelerator": "Ctrl+Tab"
   }
