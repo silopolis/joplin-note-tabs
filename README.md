@@ -109,7 +109,7 @@ In the keyboard shortcut editor, search for the command label where shortcuts sh
 2. Open the Export .json file with notepad, follow the structure to add command hotkey.
 3. Example:
 
-```
+```json
 [
   {
     "command": "newTodo",
@@ -136,11 +136,16 @@ In the keyboard shortcut editor, search for the command label where shortcuts sh
     "accelerator": "Ctrl+W"
   },
   {
+    "command": "tabsClear",
+    "accelerator": "Ctrl+Shift+W"
+  },
+  {
     "command": "tabsSwitchLastActive",
     "accelerator": "Ctrl+Tab"
   }
 ]
 ```
+
 4. Save the file then import at Joplin `Settings > Keyboard Shortcuts`.
 
 ## User options
